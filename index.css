@@ -1,0 +1,116 @@
+html, body {
+    max-width:100%;
+    overflow-x:hidden;
+    max-height:100%;
+    overflow-y:hidden;
+}
+
+#header {
+    text-align:center;
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:100px;
+    margin:auto;
+    width:30vw;
+    border-bottom:1px solid #CCC;
+}
+
+#center {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    width:30vw;
+    height:30vh;
+    text-align:center;
+    transition:left 0.4s, bottom 0.4s;
+}
+
+#avatar {
+    height:100%;
+}
+
+#up {
+    top:-50px;
+    left:0px;
+    right:0px;
+}
+
+#down {
+    bottom:-100px;
+    left:0px;
+    right:0px;
+}
+
+#left {
+    top:150px;
+    bottom:0px;
+    left:0px;
+}
+
+#right {
+    top:150px;
+    bottom:0px;
+    right:0px;
+}
+
+.buttons{
+    position:absolute;
+    margin:auto;
+}
+
+#menu {
+    width:75px;
+    position:absolute;
+    top:0px;
+    right:-75px;
+    transition:right 0.5s;
+}
+
+.menuImgs {
+    width:100%
+}
+
+#menuButton {
+    position:absolute;
+    left:-50px;
+    width:50px;
+}
+
+#hat {
+    height:25vh;
+    width:auto;
+    position:absolute;
+    display:none;
+    bottom:0px;
+    right:0px;
+    transition:right 0.4s, bottom 0.4s, height 0.2s, width 0.2s;
+    pointer-events:none;
+}
+#shirt {
+    height:25vh;
+    width:auto;
+    position:absolute;
+    display:none;
+    bottom:0px;
+    right:0px;
+    transition:right 0.4s, bottom 0.4s, height 0.2s, width 0.2s;
+    pointer-events:none;
+}
+#bow {
+    height:25vh;
+    width:auto;
+    position:absolute;
+    display:none;
+    bottom:0px;
+    right:0px;
+    transition:right 0.4s, bottom 0.4s, height 0.2s, width 0.2s;
+    pointer-events:none;
+}
+.menuButtons {
+    width:75px;
+    left:75px;
+}
